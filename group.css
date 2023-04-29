@@ -16,6 +16,6 @@ section h1 {
     padding: 30px;
 }
 
-.card-body h3 {
+.card-body h3, h4 {
     text-align: center;
 }

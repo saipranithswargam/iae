@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     height: 100vh;
@@ -9,7 +14,7 @@ body {
     background-color: transparent !important;
 }
 .nav-item a {
-    color: white !important;
+    color: slategray !important;
     font-weight: 700;
     font-size: large;
     font-family: "Roboto", sans-serif;
@@ -19,23 +24,16 @@ body {
     background-color: white;
 }
 .navbar-brand {
-    color: white;
+    color: slategray;
     font-family: "Lobster", cursive;
     font-weight: 700;
     font-size: xx-large;
 }
 h1 {
     text-align: center;
+    margin-bottom: 2rem;
 }
-p {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 14px;
-}
-p a {
-    text-decoration: none;
-    color: #1e90ff;
-}
+
 .container {
     width: 100%;
     display: grid;

@@ -1,9 +1,9 @@
 .about-us-heading h1 {
-    color: black;
+    color: rgb(39, 38, 38);
 }
 
 .about-us-content h2 {
-    color: black;
+    color: rgb(48, 46, 46);
     margin-bottom: 20px;
 }
 
@@ -11,4 +11,8 @@ footer {
     text-align: center;
     margin: 30px 0px;
     color: rgb(59, 55, 55);
+}
+
+.about-us-content {
+    font-size: 18px;
 }

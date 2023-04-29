@@ -141,9 +141,27 @@ body {
 .card-title {
     text-align: center;
 }
-
-@media(max-width:992px){
-    .container-fluid{
+.bg-img{
+    min-height: 300px;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #57575b, #b8b8b6),url("./images/banner-1.jpg");
+    margin-bottom: 1rem;
+}
+.bg-img {
+    width: 100%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+@media (max-width: 992px) {
+    .container-fluid {
         flex-direction: row !important;
     }
 }

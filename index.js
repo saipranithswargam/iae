@@ -31,6 +31,4 @@ if (window.matchMedia("(min-width: 576px)").matches) {
             }
         }
     );
-} else {
-    $(multipleCardCarousel).addClass("slide");
 }

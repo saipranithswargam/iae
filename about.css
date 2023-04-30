@@ -1,18 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;500;700;900&display=swap");
 .about-us-heading h1 {
-    color: rgb(39, 38, 38);
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .about-us-content h2 {
-    color: rgb(48, 46, 46);
     margin-bottom: 20px;
+    padding-left: 1.6rem;
 }
-
-footer {
-    text-align: center;
-    margin: 30px 0px;
-    color: rgb(59, 55, 55);
-}
-
 .about-us-content {
     font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 3rem;
+}
+footer{
+    padding-top: 8rem;
 }
